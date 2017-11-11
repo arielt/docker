@@ -13,6 +13,10 @@ Stop and remove all docker containers:
     docker stop $(docker ps -a -q)
     docker rm $(docker ps -a -q)
 
+Remove all dangling images:
+
+    docker rmi $(docker images -f dangling=true -q)
+
 Remove all images:
 
     docker rmi $(docker images -a -q)
