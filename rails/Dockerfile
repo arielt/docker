@@ -1,4 +1,5 @@
 FROM rails:onbuild
+MAINTAINER Ariel Tubaltsev
 
 COPY agent /
 COPY agent.conf /
