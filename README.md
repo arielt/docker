@@ -1,6 +1,6 @@
 # Docker
 
-Collection of Dockerfiles created for different projects
+Collection of Dockerfiles created in different projects.
 
 ## Useful commands
 
