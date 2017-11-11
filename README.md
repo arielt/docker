@@ -17,10 +17,10 @@ Remove all images:
 
     docker rmi $(docker images -a -q)
 
-Go into running container's shell:
+Run and log into container's shell:
 
     docker exec -it <Container Name> bash
 
 Start container in interactive mode:
 
-    docker run -it <Image Name> bash
+    docker run --rm --name <Container Name> -it <Image Name> bash
