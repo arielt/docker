@@ -21,7 +21,7 @@ Remove all images:
 
     docker rmi $(docker images -a -q)
 
-Run and log into container's shell:
+Log into running container's shell:
 
     docker exec -it <Container Name> bash
 
